@@ -38,7 +38,7 @@ const dataProyek = [
     {
         kategori: "HTML",
         judul: "Form Kontak",
-        gambar: "img/form-kontak.png",
+        gambar: "img/profil_pertama.png",
         alt: "Tangkapan layar formulir kontak",
         deskripsi: "Form dengan label dan validasi bawaan browser."
     },
