@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neta Puji | Kontak</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container navbar">
+            <a class="brand" href="index.html">Neta Puji</a>
+
+            <nav aria-label="Navigasi utama">
+                <ul class="nav-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="proyek.html">Proyek</a></li>
+                    <li><a class="active" href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+
+            <button class="theme-toggle" id="themeToggle" type="button">
+                Mode Terang
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="page-heading">
+                <h1>Hubungi Saya</h1>
+                <p>Punya pertanyaan atau ingin bekerja sama? Isi formulir berikut.</p>
+            </section>
+
+            <section class="card contact-card">
+                <h2>Kirim Pesan</h2>
+
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="nama">Nama lengkap</label>
+                        <input
+                            type="text"
+                            id="nama"
+                            name="nama"
+                            placeholder="Contoh: Budi Santoso"
+                            autocomplete="name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="nama@gmail.com"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="hp">Nomor HP</label>
+                        <input
+                            type="tel"
+                            id="hp"
+                            name="hp"
+                            placeholder="081234567890"
+                            autocomplete="tel"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="keperluan">Keperluan</label>
+                        <select id="keperluan" name="keperluan" required>
+                            <option value="">-- Pilih keperluan --</option>
+                            <option value="bertanya">Bertanya</option>
+                            <option value="kerja-sama">Kerja sama proyek</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                      
+                            <label for="pesan">Pesan</label>
+
+                            <textarea
+                                id="pesan"
+                                name="pesan"
+                                rows="5"
+                                maxlength="300"
+                                placeholder="Tulis pesanmu di sini"
+                                required></textarea>
+
+                            <span id="hitung-karakter" class="keterangan">
+                                0/300 karakter
+                            </span>
+                        
+                    </div>
+
+                    <button class="button submit-button" type="submit">Kirim Pesan</button>
+                </form>
+                <p class="form-note">
+                    Catatan: formulir ini masih berupa tampilan. Agar pesan benar-benar terkirim,
+                    nantinya perlu dihubungkan ke backend atau layanan formulir.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                Kontak:
+                <a href="mailto:neta.puji@example.com">neta.puji@example.com</a>
+                |
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                |
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+            </p>
+            <p>&copy; 2026 Neta Puji. Dibuat di Kelas Industri UBIG.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

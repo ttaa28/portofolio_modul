@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neta Puji | Proyek</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <a class="brand" href="index.html">Neta Puji</a>
+
+            <nav aria-label="Navigasi utama">
+                <ul class="nav-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a class="active" href="proyek.html">Proyek</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+
+            <button class="theme-toggle" id="themeToggle" type="button">Mode Gelap</button>
+        </div>
+    </header>
+
+    <main class="projects-main">
+        <div class="container">
+            <section class="page-heading">
+                <h1>Proyek Saya</h1>
+                <p>Kumpulan hasil belajar saya di Kelas Industri UBIG.</p>
+            </section>
+
+            <div class="filter" aria-label="Filter proyek">
+                <button type="button" class="tombol-filter aktif" id="filter-semua" aria-pressed="true">Semua</button>
+                <button type="button" class="tombol-filter" id="filter-javascript" aria-pressed="false">JavaScript</button>
+                <button type="button" class="tombol-filter" id="filter-css" aria-pressed="false">CSS</button>
+                <button type="button" class="tombol-filter" id="filter-html" aria-pressed="false">HTML</button>
+            </div>
+
+            <p id="jumlah-proyek" class="jumlah-proyek" aria-live="polite"></p>
+            <div class="daftar-kartu" id="daftar-proyek"></div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                Kontak:
+                <a href="mailto:neta.puji@example.com">neta.puji@example.com</a> |
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a> |
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+            </p>
+            <p>&copy; 2026 Neta Puji. Dibuat di Kelas Industri UBIG.</p>
+        </div>
+    </footer>
+
+    <!-- Semua JavaScript halaman dikelola melalui main.js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
